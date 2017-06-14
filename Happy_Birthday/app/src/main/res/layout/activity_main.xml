@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ngoctrungpham2017.happy_birthday.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/manhinh"
+        android:layout_width="355dp"
+        android:layout_height="499dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonweb"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="31dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="Web Mini" />
+
+        <Button
+            android:id="@+id/buttonsinhnhat"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonweb"
+            android:layout_marginBottom="21dp"
+            android:layout_toEndOf="@+id/linearLayout"
+            android:layout_toRightOf="@+id/linearLayout"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="Sinh Nhật" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
